@@ -7,7 +7,7 @@ class ProductsDB():
     def __init__(self,productId,category,productName,price):
         self.productId=productId
         self.category=category
-        self.ProductName=productName
+        self.productName=productName
         self.price=price
 
 #  this method creates a connection to the database
