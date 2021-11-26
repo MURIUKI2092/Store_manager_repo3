@@ -1,7 +1,7 @@
 from flask import Flask,request,jsonify,Blueprint
 from flask_jwt_extended import *
 from flask_restful import Resource,Api
-from model.products import ProductsDB
+from API. import ProductsDB
 
 app=Flask(__name__)
 api=Api(app,prefix='/api2')
